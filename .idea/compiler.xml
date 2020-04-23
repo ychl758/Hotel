@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ORDER" />
+        <module name="EUREKA1" />
+        <module name="Hotel" />
+        <module name="YGGL1" />
+        <module name="GATAWAY" />
+        <module name="comsumer" />
+        <module name="KCKF" />
+        <module name="YGGL" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="EUREKA" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="EUREKA" options="-parameters" />
+      <module name="EUREKA1" options="-parameters" />
+      <module name="GATAWAY" options="-parameters" />
+      <module name="KCKF" options="-parameters" />
+      <module name="ORDER" options="-parameters" />
+      <module name="YGGL" options="-parameters" />
+      <module name="YGGL1" options="-parameters" />
+      <module name="comsumer" options="-parameters" />
+    </option>
+  </component>
+</project>
